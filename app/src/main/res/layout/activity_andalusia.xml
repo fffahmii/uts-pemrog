@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:src="@drawable/gambar2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:text="Andalusia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Al-Andalus adalah nama dari bagian Semenanjung Iberia (Spanyol dan Portugal) yang diperintah oleh orang Islam, atau orang Moor antara tahun 711 dan 1492.[1] Al-Andalus juga sering disebut Andalusia, tetapi penggunaan ini memiliki keambiguan dengan wilayah administratif di Spanyol modern Andalusia.
+
+"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>
